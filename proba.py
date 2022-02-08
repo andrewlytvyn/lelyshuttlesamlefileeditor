@@ -32,5 +32,5 @@ for line1 in tervefile:
         tervefile[linecount] = line1
     linecount += 1
 fo.close()
-with open('new_'filename, 'w') as fp:
+with open('new_'+filename, 'w') as fp:
     fp.writelines(tervefile)
